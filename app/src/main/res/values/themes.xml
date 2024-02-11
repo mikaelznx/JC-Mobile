@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.JCMobile" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/verdebotao</item>
+    </style>
+
+    <style name="Theme.JCMobile" parent="Base.Theme.JCMobile" />
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="209dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/logojc">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/editEmail"
+        style="@style/Edit_text"
+        android:layout_width="362dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="14dp"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="9dp"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Digite seu e-mail"></EditText>
+
+    <EditText
+        android:id="@+id/editPassword"
+        style="@style/Edit_text"
+        android:layout_width="362dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/editEmail"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="7dp"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawableRight="@drawable/baseline_remove_red_eye_24"
+        android:drawablePadding="10dp"
+        android:hint="Sua senha"
+        android:inputType="textPassword"></EditText>
+
+    <TextView
+        android:id="@+id/btnRecover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="322dp"
+        android:text="Esqueci minha senha." />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        style="@style/Botaologin"
+        android:layout_width="362dp"
+        android:layout_below="@+id/editPassword"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="273dp"
+        android:background="@color/verdebotao"
+        android:foregroundTint="#F2E9E9"
+        android:text="Fazer login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="218dp"
+        android:text="Caso nao possua um acesso, solicite agora!" />
+
+    <TextView
+        android:id="@+id/textSolicitarAcesso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="189dp"
+        android:text="SOLICITAR AGORA"
+        android:textColor="#D90D0D"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:text="Para mais detalhe, acesse:"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textSaibaMais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:text="PORTAL JC"
+        android:textColor="#011402" />
+
+</RelativeLayout>

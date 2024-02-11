@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1089244990304",
+    "project_id": "jc-mobile-4380e",
+    "storage_bucket": "jc-mobile-4380e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089244990304:android:4b27606cbc1fb300b2ac05",
+        "android_client_info": {
+          "package_name": "com.example.jcmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMrIyrDdc_KwdlqerVr89DNBMOnGoKF3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
