@@ -28,6 +28,6 @@ Proyecto en curso.
 
 ![jc drawio](https://github.com/mikaelznx/JC-Mobile/assets/99798475/db3a2c73-6674-479d-89c4-aab1cb541dab)
 
-![splash](https://github.com/mikaelznx/JC-Mobile/assets/99798475/0e66adbf-34a2-4912-a199-f0b89cfd8661)
+![splash](https://github.com/mikaelznx/JC-Mobile/assets/99798475/66333717-f6b4-49c0-a161-24a4f6a303dc)
 ![login](https://github.com/mikaelznx/JC-Mobile/assets/99798475/5c0b9c7a-3f13-4d69-9d90-289c43d8a16b)
 ![recover](https://github.com/mikaelznx/JC-Mobile/assets/99798475/e5e620d5-22fd-4828-9bcf-e1c294214df3)
