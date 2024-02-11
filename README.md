@@ -1,4 +1,3 @@
-![jc drawio](https://github.com/mikaelznx/JC-Mobile/assets/99798475/db3a2c73-6674-479d-89c4-aab1cb541dab)
 Projeto simples de desenvolvimento mobile, utilizando kotlin e firebase, onde refiz o aplicativo JC Mobile. 
 Tela de Splash, onde coloquei apenas a logo inicial; 
 Tela de Login, onde tem as opçoes de entrar na conta, recuperar a senha, solicitar acesso, caso o usuário seja novo, e a opçao de saber mais informaçoes. 
@@ -25,3 +24,5 @@ También con Firebase, pude implementar la funcionalidad de recuperación de con
 Para solicitar acceso, que sería la creación de un nuevo usuario y sus permisos correspondientes, existe el campo "Solicitar ahora", que redirige a una conversación con soporte.
 
 Proyecto en curso.
+
+![jc drawio](https://github.com/mikaelznx/JC-Mobile/assets/99798475/db3a2c73-6674-479d-89c4-aab1cb541dab)
